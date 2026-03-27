@@ -17,7 +17,7 @@ void main() {
   print(dividir(10, 20));
 
   print("");
-  print('A Média de Notas é: $media(7.0, 7.0)');
+  print("A Média de Notas é: ${media(7.0, 7.0)}");
 }
 
 // Tipo de Retorno | Nome da Função | Paramêtros
