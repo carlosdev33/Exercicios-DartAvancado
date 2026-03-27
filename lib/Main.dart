@@ -10,12 +10,12 @@ void main() {
   
   print("");
   print(somar(30,30));
-  
+
   print("");
   print(subtrair(30, 10));
 
   print("");
-  print(multiplicar(20, 30, 40));
+  print(multiplicar(20, 30));
 
   print("");
   print(dividir(10, 20));
@@ -38,8 +38,8 @@ int subtrair(int a, int b) {
   return a-b;
 }
 
-int multiplicar(int a, int b, int c) {
-  return a*b*c;
+int multiplicar(int a, int b) {
+  return a*b;
 }
 
 double dividir(double a, double b) {
