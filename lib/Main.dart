@@ -4,9 +4,13 @@ void main() {
   print("");
 
   saudacao();
+
   print("");
   print(somar(50, 50));
-
+  
+  print("");
+  print(somar(30,30));
+  
   print("");
   print(subtrair(30, 10));
 
